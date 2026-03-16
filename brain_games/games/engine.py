@@ -19,7 +19,7 @@ def run(game: Game):
     game_result = process_game(game)
     match game_result:
         case True:
-            print(f"Congratulations, {player_name}!")
+            print(f'Congratulations, {player_name}!')
         case False:
             print(f"Let's try again, {player_name}!")
 
@@ -27,11 +27,14 @@ def run(game: Game):
 def process_game(game) -> bool:
     for _ in range(game.game_rounds):
         round_question, correct_answer = game.generate_round()
-        print(f"Question: {round_question}")
+        print(f'Question: {round_question}')
 
-        player_answer = prompt.string("Your answer: ")
+        player_answer = prompt.string('Your answer: ')
         if player_answer != correct_answer:
-            print(f"{player_answer} is wrong answer ;(. Correct answer was {correct_answer}.")
+            print(
+                f'{player_answer} is wrong answer ;(. '
+                f'Correct answer was {correct_answer}.'
+            )
             return False
 
         print('Correct!')
