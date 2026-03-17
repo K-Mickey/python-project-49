@@ -2,7 +2,9 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Set of mini-games for brain training"
-authors = [ "Mikhail Kokuev" ]
+authors = [
+    { name = "Mikhail Kokuev" }
+]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
