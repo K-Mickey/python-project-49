@@ -20,6 +20,8 @@ The project was created as part of the [Hexlet](https://hexlet.io) course.
 
 ## Installation
 
+[![asciicast](https://asciinema.org/a/B9JsTHWugsR1A4Fq.svg)](https://asciinema.org/a/B9JsTHWugsR1A4Fq)
+
 Choose a place for the clone and run the following commands:
 
 ```bash
